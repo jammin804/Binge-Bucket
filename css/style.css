@@ -1,0 +1,46 @@
+/************
+*  General  *
+*************/
+@font-face {
+    font-family: 'CopasecticNF';
+    src: url(../copasetic/CopaseticNF.ttf);
+}
+body {
+    background-color: #3C1E50;
+    font-family: 'CopasecticNF', sans-serif;
+}
+.content
+{
+    width: 50%;
+    margin: 0 auto;
+}
+/************
+*  Header   *
+*************/
+.headline
+{
+    width: 50%;
+    margin: 1.25rem auto 0; /*20px/16px*/
+    background-color: #bbb;
+    text-align: center;
+    border-radius: 0.625em;/*10px/16px*/
+    padding: 0.125rem; /*2px/16px*/
+}
+.headline h1
+{
+    font-size: 4.5rem;
+    font-weight: 100;
+}
+.headline h2
+{
+    font-size: 2rem;
+}
+/************
+*  Search   *
+*************/
+#search
+{
+    margin-top: 2.1875rem; /*35px/16px*/
+    width: 100%;
+    font-size: 1.25rem;
+}
