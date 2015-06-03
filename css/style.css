@@ -6,7 +6,6 @@
     src: url(../copasetic/CopaseticNF.ttf);
 }
 body {
-    background-color: #3C1E50;
     font-family: 'CopasecticNF', sans-serif;
 }
 .content
@@ -17,6 +16,10 @@ body {
 /************
 *  Header   *
 *************/
+header 
+{
+    background-color: #3C1E50;
+}
 .headline
 {
     width: 50%;

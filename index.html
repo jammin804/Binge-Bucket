@@ -16,10 +16,16 @@
         </div>
     </header>
     <section>
-        <div class="content">
-            <input type="text" id="search" placeholder="Enter a show or movie!">
-        </div>
+        <form action="submit" id="show-lookup">
+            <div class="content">
+                <input type="text" id="search" name="search" placeholder="Enter a show or movie!" required/>
+            </div>
+            <div>
+                <input type="submit" id="btn-lookup" value="Search" />
+            </div>
+        </form>
     </section>
+    <div id="results"></div>
 </body>
 <script src="js/jquery.min.js"></script>
 <script src="js/apps.js"></script>
