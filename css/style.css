@@ -16,7 +16,7 @@ body {
 /************
 *  Header   *
 *************/
-header 
+header
 {
     background-color: #3C1E50;
 }
@@ -46,4 +46,11 @@ header
     margin-top: 2.1875rem; /*35px/16px*/
     width: 100%;
     font-size: 1.25rem;
+    float: left;
+}
+#btn-lookup
+{
+    margin-top: 2.1875rem; /*35px/16px*/
+    margin-right: 100px;
+    float: right;
 }
