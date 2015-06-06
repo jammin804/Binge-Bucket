@@ -14,7 +14,8 @@ $(document).ready(function() {
             'apikey': apiKey,
             'q': search,
         }, function(data){
-            if(data.results && data.results.length > 0)
+            console.log(data);
+            /*if(data.Similar.Results && data.Similar.Results.length > 0)
             {
                 var bingeResults = '<p>Here is what we came up with :D!</p>';
                 $.each(data.results, function(i, rep){
@@ -27,7 +28,7 @@ $(document).ready(function() {
                 results.html(bingeResults);
             }else {
                 results.html('<p>Please enter a tv show or movie title.</p>')
-            }
+            }*/
         });
 	});
 
